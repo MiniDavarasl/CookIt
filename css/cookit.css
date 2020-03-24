@@ -37,12 +37,61 @@ p {
     font-family: 'Muli', Verdana, Sans-serif;
     font-size: 16px;
 }
+/* class created to make elements red on request */
 .red-accent {
     color: #742F40;
 }
+/* id created to make heart red */
 #red-heart{
     color: #742F40;
 }
 footer {
     background-color: #BF8377;
+}
+/* styling navigation menu */
+nav a {
+    outline: none; 
+    text-decoration: none;
+    font-family: 'Muli', Verdana, Sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+}
+a:link {
+    color: #3b2c27;
+}
+a:visited {
+    color:  #3b2c27;
+}
+a:focus {
+    color: #bf8377;
+}
+a:hover {
+    color: #742F40;
+}
+a:active {
+    color: RGBA(191,131,119,0.5);
+}
+
+/* styling footer menu */
+footer a {
+    outline: none; 
+    text-decoration: none;
+    font-family: 'Muli', Verdana, Sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+}
+a:link {
+    color: #3b2c27;
+}
+a:visited {
+    color:  #3b2c27;
+}
+a:focus {
+    color: #bf8377;
+}
+a:hover {
+    color: #742F40;
+}
+a:active {
+    color: RGBA(191,131,119,0.5);
 }
