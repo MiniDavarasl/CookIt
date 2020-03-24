@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One|Liu+Jian+Mao+Cao|Muli:300,300i,400,400i,800,800i&display=swap');
+
+/* FONTS 
+Titles: Fugaz One, Georgia, Monospace
+Accents: Jian Mao Cao, Verdana, Cursive
+Text: Muli, Verdana, Sans-serif /*
+
+/* COLOURS
+Light Grey #da9688 RGB(218,150,136)
+Dark Grey #3b2c27 RGB(59,44,39)
+Light Blush #e4cbc6 RGB(228,203,198)
+Dark Blush #c39b93 RGB(195,155,147)
+Dark Chocolate #553F3A (85,63,58)
+Strong Peach #bf8377 RGB(191,131,119)
+Strong Wine #742f40 RGB(116,47,64)
+
+Strong Lilac #bab3db RGB(186,179,219) */
+
+body {
+    background-color: #E4CBC6;
+}
+h1 {
+    color: #BF8377;
+    font-family: 'Fugaz One', Georgia, Monospace;
+    font-size: 60px;
+}
+h2 {
+    color: #742F40;
+    font-family: 'Fugaz One', Georgia, Monospace;
+}
+h3, h4 {
+    color: #553F3A;
+    font-family: 'Fugaz One', Georgia, Monospace;
+}
+p {
+    color: #3b2c27;
+    font-family: 'Muli', Verdana, Sans-serif;
+    font-size: 16px;
+}
+.red-accent {
+    color: #742F40;
+}
+#red-heart{
+    color: #742F40;
+}
+footer {
+    background-color: #BF8377;
+}
