@@ -28,8 +28,12 @@ h2 {
     color: #742F40;
     font-family: 'Fugaz One', Georgia, Monospace;
 }
-h3, h4 {
+h3{
     color: #553F3A;
+    font-family: 'Fugaz One', Georgia, Monospace;
+}
+h4 {
+    color: #742F40;
     font-family: 'Fugaz One', Georgia, Monospace;
 }
 p {
@@ -37,15 +41,14 @@ p {
     font-family: 'Muli', Verdana, Sans-serif;
     font-size: 16px;
 }
-/* class created to make elements red on request */
-.red-accent {
-    color: #742F40;
-}
 /* id created to make heart red */
 #red-heart{
     color: #742F40;
 }
 footer {
+    background-color: #BF8377;
+}
+nav {
     background-color: #BF8377;
 }
 /* styling navigation menu */
