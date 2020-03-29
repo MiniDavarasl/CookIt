@@ -126,3 +126,10 @@ button:active {
     color: #742f40;
     background-color: RGBA(186,179,219,0.5)
 }
+/* styling space between lines in lists */
+ol, ul { 
+    font-family: 'Muli', Verdana, Sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2;
+}
