@@ -151,7 +151,7 @@ tr:nth-child(even) {
 }
 /* styling hero */
 .hero {
-    background-image: url("../images/paprika_with_aubergine_by_mariana-medvedeva_unsplash.jpg");
+    background-image: url("../images/paprika_with_aubergine.jpg")
 }
 .center {
     text-align: center;
