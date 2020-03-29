@@ -156,3 +156,7 @@ tr:nth-child(even) {
 .center {
     text-align: center;
 }
+/* styling round images on homepage */
+.round img {
+    border-radius: 50%;
+}
