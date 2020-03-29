@@ -129,7 +129,23 @@ button:active {
 /* styling space between lines in lists */
 ol, ul { 
     font-family: 'Muli', Verdana, Sans-serif;
-    font-weight: 400;
     font-size: 16px;
     line-height: 2;
+}
+/* styling measurement table */
+table, th, td {
+    border: 1px solid #3b2c27;
+    border-collapse: collapse;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Muli', Verdana, Sans-serif;
+}
+th {
+    background-color: #bf8377;
+    color: #742f40;
+}
+tr:nth-child(even) {
+    background-color: #e4cbc6;
 }
