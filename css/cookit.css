@@ -18,6 +18,7 @@ Strong Lilac #bAb3db
 Strong Lilac #bab3db RGB(186,179,219) */
 
 body {
+    margin: 0px;
     background-color: #e4cbc6;
 }
 h1 {
@@ -151,10 +152,18 @@ tr:nth-child(even) {
 }
 /* styling hero */
 .hero {
-    background-image: url("../images/paprika_with_aubergine.jpg")
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-image: url("../images/paprika_with_aubergine_1920x1259-01.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .center {
     text-align: center;
+}
+section div+h1{
+    padding-top: 40%;
 }
 /* styling round images on homepage */
 .roundimg {
