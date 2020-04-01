@@ -22,18 +22,18 @@ body {
     background-color: #e4cbc6;
 }
 h1 {
-    color: #bf8377;
+    color: #742f40;
     font-family: 'Fugaz One', Georgia, Monospace;
     font-size: 60px;
     
 }
 h2 {
-    color: #742f40;
+    color: #3b2c27;
     font-family: 'Fugaz One', Georgia, Monospace;
     margin: 0px;
 }
 h3{
-    color: #553f3A;
+    color: #3b2c27;
     font-family: 'Fugaz One', Georgia, Monospace;
     margin: 0px;
 }
@@ -206,6 +206,7 @@ section div+h1{
 /* styling round images on homepage */
 .fr-link-div-1 {
     display: inline-block;
+    flex: 1 50px;
     width: 300px;
     height: 300px;
     background-image: url("../images/overnight_oats_by_ella_olsson_unsplash.jpg");
@@ -214,14 +215,18 @@ section div+h1{
 }
 .fr-link-div-2 {
     display: inline-block;
+    flex: 1 50px;
     width: 300px;
     height: 300px;
     background-image: url("../images/spaghetti_carbonara_by_wow_phochiangrak_pixabay.jpg");
     background-size: contain;
     border-radius: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .fr-link-div-3 {
     display: inline-block;
+    flex: 1 50px;
     width: 300px;
     height: 300px;
     background-image: url("../images/chocolate_cookies_by_corleto_unsplash.jpg");
@@ -252,6 +257,7 @@ section div+h1{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-top: 15%;
-    padding-bottom: 15%;
+    padding-top: 4%;
+    padding-bottom: 10%;
+    margin: auto;
 }
