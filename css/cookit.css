@@ -247,3 +247,11 @@ section div+h1{
 .fr-link-div-3:hover {
     opacity: 50%;
 }
+/* styling recipes of the month - rotm */
+.rotm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
