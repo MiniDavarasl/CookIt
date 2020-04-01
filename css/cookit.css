@@ -97,8 +97,6 @@ a:active {
     flex: 1 50px;
     padding-left: 50px;
 }
-
-
 /* footer menu */
 footer a {
     outline: none; 
@@ -179,7 +177,7 @@ tr:nth-child(even) {
     align-items: center;
     padding-top: 15%;
     padding-bottom: 15%;
-    background-image: url("../images/paprika_with_aubergine_1920x1259-01.png");
+    background-image: url("../images/strawberry_ice_cream.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
