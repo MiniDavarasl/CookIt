@@ -55,6 +55,17 @@ p {
     font-family: 'Muli', Verdana, Sans-serif;
     font-size: 16px;
 }
+/* text alignment */
+.center {
+    text-align: center;
+}
+.left {
+    text-align: left;
+    margin-left: 1%;
+}
+.right {
+    text-align: right;
+}
 /* id created to make heart red */
 #red-heart{
     color: #742f40;
@@ -112,7 +123,17 @@ a:active {
 footer {
     background-color: #bf8377;
     padding-top: 5%;
-    padding-bottom: 8%
+    padding-bottom: 1%
+}
+.footer-some {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+}
+.some {
+    padding-left: 20px;
 }
 .footer-nav {
     display: flex;
@@ -123,6 +144,7 @@ footer {
 }
 .f-link {
     padding-left: 20px;
+    margin-bottom: 5%;
 }
 /* footer menu */
 footer a {
@@ -213,9 +235,6 @@ tr:nth-child(even) {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-}
-.center {
-    text-align: center;
 }
 section div+h1{
     padding-top: 40%;
