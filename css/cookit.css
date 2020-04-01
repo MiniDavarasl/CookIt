@@ -52,9 +52,13 @@ footer {
 }
 nav {
     display: flex;
+    position: fixed;
+    width: 100%;
     background-color: #bf8377;
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 /* navigation menu */
 nav a {
@@ -79,6 +83,21 @@ a:hover {
 a:active {
     color: RGBA(191,131,119,0.5);
 }
+.nav-flex {
+    display: flex;
+    flex-direction: row;
+}
+.nav-logo {
+    flex: 1 50px;
+}
+.nav-link {
+    flex: 1 50px;
+}
+.nav-login {
+    flex: 1 50px;
+    padding-left: 50px;
+}
+
 
 /* footer menu */
 footer a {
