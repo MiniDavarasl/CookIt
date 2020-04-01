@@ -169,45 +169,46 @@ section div+h1{
     padding-top: 40%;
 }
 /* styling round images on homepage */
-.roundimg {
-    border-radius: 50%;
-}
 .fr-link-div-1 {
     display: inline-block;
     width: 300px;
     height: 300px;
-    background: url("../images/overnight_oats_by_ella_olsson_unsplash.jpg");
+    background-image: url("../images/overnight_oats_by_ella_olsson_unsplash.jpg");
     background-size: contain;
+    border-radius: 50%;
 }
 .fr-link-div-2 {
     display: inline-block;
     width: 300px;
     height: 300px;
-    background: url("../images/spaghetti_carbonara_by_wow_phochiangrak_pixabay.jpg");
+    background-image: url("../images/spaghetti_carbonara_by_wow_phochiangrak_pixabay.jpg");
     background-size: contain;
+    border-radius: 50%;
 }
 .fr-link-div-3 {
     display: inline-block;
     width: 300px;
     height: 300px;
-    background: url("../images/chocolate_cookies_by_corleto_unsplash.jpg");
+    background-image: url("../images/chocolate_cookies_by_corleto_unsplash.jpg");
     background-size: contain;
+    border-radius: 50%;
 }
-.fr-h4-center{ 
-    opacity: 0%;
+.fr-h4 { 
+    display: none;
     text-align: center;
     position: relative;
-    top: 50%;
+    top: 30%;
     margin: 0px;
 }
-.roundimg:hover {
-    color: rgb(0,0,0,0.5);
-    font-family: 'Muli', Verdana, Sans-serif;
-    font-weight: 800;
-    font-size: 16px;
-    color: #742f40;
+.fr-h4:hover {
+    display: block;
 }
-.roundimg h4 {
-    opacity: 0%;
+.fr-link-div-1:hover {
+    opacity: 50%;
 }
-
+.fr-link-div-2:hover {
+    opacity: 50%;
+}
+.fr-link-div-3:hover {
+    opacity: 50%;
+}
