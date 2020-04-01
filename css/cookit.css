@@ -152,6 +152,9 @@ tr:nth-child(even) {
 }
 /* styling hero */
 .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-top: 15%;
     padding-bottom: 15%;
     background-image: url("../images/paprika_with_aubergine_1920x1259-01.png");
@@ -168,11 +171,4 @@ section div+h1{
 /* styling round images on homepage */
 .roundimg {
     border-radius: 50%;
-}
-.roundimg:hover {
-    opacity: 0.5;
-    font-family: 'Muli', Verdana, Sans-serif;
-    font-weight: 800;
-    font-size: 16px;
-    color: #742f40
 }
