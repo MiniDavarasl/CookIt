@@ -306,6 +306,12 @@ section div+h1{
     position: relative;
     top: 200px; 
 }
+.fr-img {
+    border-radius: 50%;
+}
+.fr-h4 {
+    padding-top: 10px;
+}
 .fr-wrapper {
     display: flex;
     flex-direction: column;
@@ -314,4 +320,13 @@ section div+h1{
     padding-top: 15%;
     padding-bottom: 15%;
 }
+.fr-block {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    flex: 1 50px;
+    width: 300px;
+    height: 300px;
+}
+
 
