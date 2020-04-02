@@ -122,7 +122,7 @@ a:active {
 /* styling footer */
 footer {
     background-color: #bf8377;
-    padding-top: 5%;
+    padding-top: 2%;
     padding-bottom: 1%
 }
 .footer-some {
@@ -144,7 +144,7 @@ footer {
 }
 .f-link {
     padding-left: 20px;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
 }
 /* footer menu */
 footer a {
