@@ -301,3 +301,17 @@ section div+h1{
 .s-rotm {
     margin: 8%;
 }
+/* styling favorite recipes page - fr */
+.fr-h1 {
+    position: relative;
+    top: 200px; 
+}
+.fr-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
