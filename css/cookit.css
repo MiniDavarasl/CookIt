@@ -338,6 +338,6 @@ section div+h1{
 .grid-1 {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    grid-rows-gap: 50px;
+    grid-row-gap: 20px;
 }
 
