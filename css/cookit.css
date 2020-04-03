@@ -335,5 +335,9 @@ section div+h1{
     height: auto;
     padding: 50px;
 }
-
+.grid-1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-rows-gap: 50px;
+}
 
